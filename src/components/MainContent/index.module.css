@@ -1,0 +1,32 @@
+div[id="currentWeather"] {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 20px 40px;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+div[id="dayOptions"] {
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+    width: fit-content;
+    height: fit-content;
+}
+
+div[id="dayOptions"] > div {
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+div[id="dayOptions"] > div:hover {
+    background-color: lightgray;
+}
+
+div[id="weatherListParent"] {
+    display: flex;
+    justify-content: space-around;
+}

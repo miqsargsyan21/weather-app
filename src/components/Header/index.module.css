@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+input {
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+}
+
+button[type="submit"] {
+    border-radius: 8px;
+    background-color: lightgreen;
+}
+
+button[class="choiceButton"] {
+    background-color: white;
+    border: 0;
+}
+
+button[class="choiceButton"]:hover {
+    background-color: lightgray;
+}
+
+div[id="secondChild"] {
+    border-radius: 8px;
+    height: fit-content;
+    overflow: hidden;
+}
